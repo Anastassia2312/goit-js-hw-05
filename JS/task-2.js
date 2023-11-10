@@ -7,7 +7,7 @@
 Друзі кожного користувача зберігаються у властивості friends. 
 Якщо користувачів, у яких є такий других немає, то функція має повернути порожній масив.*/
 
-/*const getUsersWithFriend = (users, friendName) => {
+const getUsersWithFriend = (users, friendName) => {
   return users.filter((user) => user.friends.includes(friendName));
 };
 
@@ -66,4 +66,4 @@ console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
 //   }
 // ]
 
-console.log(getUsersWithFriend(allUsers, "Adrian Cross")); // []*/
+console.log(getUsersWithFriend(allUsers, "Adrian Cross")); // []

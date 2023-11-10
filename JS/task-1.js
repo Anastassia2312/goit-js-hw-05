@@ -3,7 +3,7 @@
 Функція має повертати масив імен усіх
 користувачів(властивість name) із масиву users.*/
 
-/*const getUserNames = (users) => {
+const getUserNames = (users) => {
   return users.map((user) => user.name);
 };
 
@@ -45,4 +45,4 @@ console.log(
       balance: 2764,
     },
   ])
-);*/
+);
